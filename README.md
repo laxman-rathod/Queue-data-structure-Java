@@ -1,4 +1,4 @@
-# Queue Data Structure in Java
+# Queue Data Structure implementation in Java
 
 A queue is a fundamental data structure in computer science that follows the First-In-First-Out (FIFO) principle. In Java, queues are typically implemented using the `Queue` interface, which extends the `Collection` interface. There are several classes that implement this interface, including `LinkedList`, `ArrayDeque`, and `PriorityQueue`. Each has its own characteristics and use cases.
 
@@ -14,7 +14,7 @@ A queue is a fundamental data structure in computer science that follows the Fir
 
 5. **Printers and I/O Buffers**: Queues can manage the flow of data in scenarios where multiple processes are producing or consuming data. For instance, a printer may have a queue to manage print jobs, or a network device might use a queue to handle incoming data packets.
 
-## Advantages of Queue Data Structure:
+# Advantages of Queue Data Structure:
 
 1. **Order Preservation**: Queues maintain the order of elements, ensuring that the first element added is the first one to be removed. This is crucial for applications where order matters.
 
@@ -24,7 +24,7 @@ A queue is a fundamental data structure in computer science that follows the Fir
 
 4. **Dynamic Size**: Many queue implementations in Java automatically resize themselves as needed, making them suitable for dynamic scenarios.
 
-## Disadvantages of Queue Data Structure:
+# Disadvantages of Queue Data Structure:
 
 1. **Random Access**: Queues do not support random access, meaning you can't access elements at arbitrary positions like you can with arrays or lists. You can only access elements from the front and remove them from the front.
 
@@ -32,7 +32,7 @@ A queue is a fundamental data structure in computer science that follows the Fir
 
 3. **Performance Variability**: The performance of a queue can vary depending on the specific implementation used. For example, a priority queue can have different performance characteristics compared to a simple linked list-based queue.
 
-# Operations on the queue data structure:
+# Operations on a queue:
 
 Enqueue (Push): This operation is used to add an element to the back of the queue. It's also called "push" in some contexts.
 
@@ -43,3 +43,9 @@ Front (Peek): This operation retrieves the element at the front of the queue wit
 IsEmpty: This operation checks if the queue is empty. It returns a boolean value (true if the queue is empty, false if it contains elements).
 
 Size (Count): This operation returns the number of elements currently in the queue.
+
+# Owner ⭐
+ - Name: Laxman Rathod
+ - Github: [Laxman Rathod](https://github.com/rathodlucky12)
+
+
