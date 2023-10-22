@@ -2,7 +2,7 @@
 
 A queue is a fundamental data structure in computer science that follows the First-In-First-Out (FIFO) principle. In Java, queues are typically implemented using the `Queue` interface, which extends the `Collection` interface. There are several classes that implement this interface, including `LinkedList`, `ArrayDeque`, and `PriorityQueue`. Each has its own characteristics and use cases.
 
-## Usage of Queue Data Structure in Java:
+# Usage of Queue Data Structure in Java:
 
 1. **Task Scheduling**: Queues are often used to manage tasks in a system, ensuring that the tasks are executed in the order they are received. For example, in a print spooler, the print jobs are processed in the order they were added to the queue.
 
@@ -31,3 +31,15 @@ A queue is a fundamental data structure in computer science that follows the Fir
 2. **Limited Functionality**: Queues have limited functionality compared to more complex data structures like lists or sets. They are primarily designed for sequential processing and not for searching or arbitrary manipulations.
 
 3. **Performance Variability**: The performance of a queue can vary depending on the specific implementation used. For example, a priority queue can have different performance characteristics compared to a simple linked list-based queue.
+
+# Operations on the queue data structure:
+
+Enqueue (Push): This operation is used to add an element to the back of the queue. It's also called "push" in some contexts.
+
+Dequeue (Pop): This operation removes and returns the element at the front of the queue. It's also called "pop" in some contexts.
+
+Front (Peek): This operation retrieves the element at the front of the queue without removing it. It allows you to look at the next element that will be dequeued.
+
+IsEmpty: This operation checks if the queue is empty. It returns a boolean value (true if the queue is empty, false if it contains elements).
+
+Size (Count): This operation returns the number of elements currently in the queue.
